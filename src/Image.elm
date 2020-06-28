@@ -22,4 +22,4 @@ metamaskLogo =
 
 createImage : String -> String -> Image
 createImage filename description =
-    Image <| { src = "./asset/image/" ++ filename, description = description }
+    Image <| { src = "asset/image/" ++ filename, description = description }
