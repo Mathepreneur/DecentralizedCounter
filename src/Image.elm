@@ -17,9 +17,9 @@ toElement attributes (Image { src, description }) =
 
 metamaskLogo : Image
 metamaskLogo =
-    createImage "MetamaskLogo.SVG" "Metamask Logo"
+    createImage "MetamaskLogo.svg" "Metamask Logo"
 
 
 createImage : String -> String -> Image
 createImage filename description =
-    Image <| { src = "/asset/image/" ++ filename, description = description }
+    Image <| { src = "./asset/image/" ++ filename, description = description }
