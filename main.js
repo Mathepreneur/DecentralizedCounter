@@ -13673,7 +13673,7 @@ var $author$project$Main$viewMetamaskButtonBigDesktop = $author$project$Main$vie
 var $author$project$Image$Image = $elm$core$Basics$identity;
 var $author$project$Image$createImage = F2(
 	function (filename, description) {
-		return {aX: description, be: '/asset/image/' + filename};
+		return {aX: description, be: './asset/image/' + filename};
 	});
 var $author$project$Image$metamaskLogo = A2($author$project$Image$createImage, 'MetamaskLogo.svg', 'Metamask Logo');
 var $elm$html$Html$Attributes$alt = $elm$html$Html$Attributes$stringProperty('alt');
